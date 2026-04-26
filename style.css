@@ -1,0 +1,58 @@
+body {
+    font-family: 'Helvetica', Arial, sans-serif;
+}
+
+.image-container {
+    height: 1vh;
+    width: 100%; 
+}
+
+.image-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url('./Images/Cinnamon\ Roll.jpg') no-repeat center top/cover;
+}
+   
+.header {
+    color: rgb(133, 92, 4);
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+    text-align: center;   
+}
+
+.sub-header {
+    display: grid;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+h2 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    color: rgb(41, 37, 29);
+    font-size: 1.10rem;
+}
+
+h3 {
+    color:rgb(41, 37, 29);
+    font-size: 1rem;
+    padding-left: 15px;
+}
+
+ol, li {
+    color:rgb(41, 37, 41);
+    font-size: .85rem;    
+}
+
+/* FOOTER */
+footer {
+    text-align: start;
+    font-size: 10px;
+    padding: none;
+    color: #555;
+}
